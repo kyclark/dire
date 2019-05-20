@@ -18,7 +18,7 @@ I miss having these two functions that in Perl. I find myself defining them in m
 
 ## warn(msg)
 
-The `warn` function will simply print a message to `file=sys.stderr`.
+The `warn` function will simply `print(message, file=sys.stderr)`.
 
 ## die(msg, exit_val=1)
 
