@@ -1,5 +1,7 @@
 """Python equivalents of Perl's warn and die functions"""
 
+import sys
+
 def warn(msg):
     """Print a message to sys.stderr"""
     if msg: print(msg, file=sys.stderr)
